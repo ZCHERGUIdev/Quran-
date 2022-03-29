@@ -13,8 +13,11 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+        supportActionBar!!.hide()
+
         Handler().postDelayed({
-            startActivity(Intent(this@SplashActivity,DashboardActivity::class.java))
+            startActivity(Intent(this@SplashActivity,List_audio_activity::class.java))
+            finish()
         },3000)
     }
 }
