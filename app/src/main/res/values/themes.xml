@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.QuranVoice" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#010010</item>
         <item name="colorPrimaryVariant">@color/splashColor</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

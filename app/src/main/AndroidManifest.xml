@@ -13,7 +13,7 @@
             android:name=".Ui.List_audio_activity"
             android:exported="false" />
         <activity
-            android:name=".Ui.DashboardActivity"
+            android:name=".Ui.PlayActivity"
             android:exported="false" />
         <activity
             android:name=".Ui.SplashActivity"
