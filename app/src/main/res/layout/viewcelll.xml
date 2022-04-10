@@ -24,7 +24,7 @@
             android:src="@drawable/logo" />
 
         <LinearLayout
-            android:layout_width="190.0dip"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16.0dip"
             android:orientation="vertical">
@@ -32,9 +32,9 @@
 
             <TextView
                 android:id="@+id/txtName"
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fatiha"
+                android:text="@string/fatiha"
                 android:textColor="@color/black"
                 android:textSize="20.0sp"
                 android:textStyle="bold" />
@@ -43,7 +43,7 @@
                 android:id="@+id/txtTime"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="2m:30s"
+                android:text="@string/_2m_30s"
                 android:textColor="@android:color/holo_green_dark"
                 android:textSize="20.0sp"
                 android:textStyle="bold" />

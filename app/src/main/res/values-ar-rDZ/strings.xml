@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تلاوات القارئ عبد الباسط دعباج</string>
+    <string name="all_surah_20_item">كل السور</string>
+    <string name="fatiha">الفاتحة</string>
+    <string name="_2m_30s">2m:30s</string>
+    <string name="stop">توقف</string>
+    <string name="play">تشغيل</string>
+</resources>

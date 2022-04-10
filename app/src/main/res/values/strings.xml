@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">QuranVoice</string>
+    <string name="app_name">تلاوات القارئ عبد الباسط دعباج</string>
+    <string name="all_surah_20_item">All Surah(20 item)</string>
+    <string name="fatiha">Fatiha</string>
+    <string name="_2m_30s">2m:30s</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
 </resources>

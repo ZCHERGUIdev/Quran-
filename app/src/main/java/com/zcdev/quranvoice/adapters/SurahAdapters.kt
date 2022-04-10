@@ -21,10 +21,12 @@ class SurahAdapters (var listAudios:ArrayList<Surah>): RecyclerView.Adapter<Sura
     override fun onBindViewHolder(holder: SurahAdapters.ViewHolder, position: Int) {
 
         holder.name.text=listAudios[position].surahName
-        holder.time.text= Calendar.getInstance().getTime().toString()
+        holder.time.text= "4m:30s"
 
         holder.itemView.setOnClickListener {
                 var i =Intent(holder.itemView.context,PlayActivity::class.java)
+                i.putExtra("surahName",listAudios[position].surahName)
+                i.putExtra("mediaID",listAudios[position].surahMediaFile)
                 holder.itemView.context.startActivity(i)
         }
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/homebackground"
+    android:background="@color/white"
     tools:context=".Ui.List_audio_activity">
 
 
@@ -16,10 +16,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="All Surah(20 item)"
+            android:text="@string/all_surah_20_item"
             android:layout_gravity="center"
             android:textSize="20sp"
-            android:textColor="@color/white"
+            android:textColor="@color/logoColor"
             android:layout_marginLeft="10dp"
             />
 
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_gravity="center"
-            android:background="@color/white"
+            android:background="@color/logoColor"
             android:layout_marginLeft="10dp"
 
             />
@@ -36,9 +36,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRec"
-        android:layout_below="@id/header"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:layout_below="@id/header" />
 
 </RelativeLayout>
